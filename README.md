@@ -26,3 +26,18 @@ This repository includes implementations of two deep learning architectures:
 - **LRCN (Long-term Recurrent Convolutional Networks)**: Uses CNN layers for spatial feature extraction followed by LSTM layers to capture temporal relationships across frames.
 
 Each model can be trained and evaluated independently within the notebook, allowing comparison of their performance.
+
+
+## Project Structure
+
+├── Activity_Recognition.ipynb # Jupyter Notebook for the project
+├── LICENSE # License file (MIT License)
+├── README.md # Project documentation
+├── model_convlstm_v1.keras # Pretrained ConvLSTM model file
+├── model_lrcn_v1.keras # Pretrained LRCN model file
+└── requirements.txt # List of required packages
+
+
+
+
+
