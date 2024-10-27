@@ -6,8 +6,6 @@ This repository contains two deep learning models—ConvLSTM and LRCN (Long-term
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Models](#models)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
 - [Usage](#usage)
 - [Results](#results)
 - [License](#license)
@@ -28,14 +26,25 @@ This repository includes implementations of two deep learning architectures:
 Each model can be trained and evaluated independently within the notebook, allowing comparison of their performance.
 
 
-## Project Structure
+## Usage
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/activity-recognition.git
+   cd activity-recognition
 
-├── Activity_Recognition.ipynb # Jupyter Notebook for the project
-├── LICENSE # License file (MIT License)
-├── README.md # Project documentation
-├── model_convlstm_v1.keras # Pretrained ConvLSTM model file
-├── model_lrcn_v1.keras # Pretrained LRCN model file
-└── requirements.txt # List of required packages
+2. **Install the required packages: Install the dependencies using**:
+   ```bash
+   pip install -r requirements.txt
+
+3. **Download and extract the dataset**:  
+   The UCF50 dataset will be downloaded automatically within the notebook, but ensure that you have enough storage and extraction tools (e.g., `unrar`).
+
+4. **Run the Jupyter Notebook**:  
+   Open `Activity_Recognition.ipynb` in Jupyter Notebook to execute the code cells for data loading, preprocessing, model training, and evaluation. You can select between the ConvLSTM and LRCN models.
+
+
+   
+
 
 
 
