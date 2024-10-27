@@ -43,7 +43,22 @@ Each model can be trained and evaluated independently within the notebook, allow
    Open `Activity_Recognition.ipynb` in Jupyter Notebook to execute the code cells for data loading, preprocessing, model training, and evaluation. You can select between the ConvLSTM and LRCN models.
 
 
-   
+## Results
+After training, the models achieve the following approximate accuracies on the test set:
+
+- **ConvLSTM Model**: loss: 0.3896 - accuracy: 87.50%
+- **LRCN Model**: loss: 0.2304 - accuracy: 92.65%
+
+Example frames and prediction outputs are visualized within the notebook.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Acknowledgements
+- [UCF50 Dataset](https://www.crcv.ucf.edu/data/UCF50/) by UCF Center for Research in Computer Vision.
+
+Feel free to open an issue if you have questions about the code or encounter any issues.
+
 
 
 
